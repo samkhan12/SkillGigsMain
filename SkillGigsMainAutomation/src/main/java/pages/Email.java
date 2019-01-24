@@ -111,7 +111,7 @@ public class Email {
 
 			// set the content
 			message.setContent(multipart);
-			message.setContent(multipart);
+		//	message.setContent(multipart);
 
 			// finally send the email
 			Transport.send(message);
